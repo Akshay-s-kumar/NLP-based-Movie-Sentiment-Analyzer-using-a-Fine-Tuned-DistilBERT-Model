@@ -1,0 +1,41 @@
+# Byte-compiled and optimized files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+# Replace 'myenv' with the name of your environment folder if it's different
+myenv/
+venv/
+env/
+.venv/
+
+# MLOps and Experiment Tracking
+# MLflow tracking directory
+mlruns/
+
+# ZenML metadata store
+.zen/
+
+# Generated artifacts (models, plots, etc.)
+artifacts/
+data/
+
+# Data files
+# It's good practice to not commit large data files to git.
+# If your 'data' folder contains large files, uncomment the line below.
+# data/
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
